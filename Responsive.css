@@ -1,0 +1,32 @@
+/*Mobile first Approach
+First we have to consider the mobile screen and the tablet and last is laptop
+*/
+
+/*For tablet the device width starts for -> 768px
+For Laptop the device width starts for -> 1020 px
+For PC the device width starts for -> 1400 px
+Before 768 px it considered as Mobile device width*/
+
+body{
+    background-color: green;
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color:red;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color:orange;
+    }
+}
+
+
